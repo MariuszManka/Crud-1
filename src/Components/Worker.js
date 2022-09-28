@@ -4,7 +4,7 @@ import React from 'react';
 const Worker = (props) => {
 
     const { name, surname, id } = props.worker;
-    // console.log(worker, props);
+    console.log(props);// m_manka: Wyloguj sobie propsy - nie podajesz nigdzie propsa "edit", stąd przycisk "Edit" nie działa
     return (
         <div key={props.key}>
 
